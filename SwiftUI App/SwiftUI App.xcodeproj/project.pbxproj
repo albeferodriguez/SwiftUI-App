@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EBCB09912892D5E600DDEBD8 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCB09902892D5E600DDEBD8 /* AccountView.swift */; };
 		EC8F22E1287F132B00E5C3E4 /* SwiftUI_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F22E0287F132B00E5C3E4 /* SwiftUI_AppApp.swift */; };
 		EC8F22E3287F132B00E5C3E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F22E2287F132B00E5C3E4 /* ContentView.swift */; };
 		EC8F22E5287F133000E5C3E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F22E4287F133000E5C3E4 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EBCB09902892D5E600DDEBD8 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		EC8F22DD287F132B00E5C3E4 /* SwiftUI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8F22E0287F132B00E5C3E4 /* SwiftUI_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AppApp.swift; sourceTree = "<group>"; };
 		EC8F22E2287F132B00E5C3E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				ECB200832885B55E00D7D9DD /* Styles.swift */,
 				EC8F22E4287F133000E5C3E4 /* Assets.xcassets */,
 				EC8F22E6287F133000E5C3E4 /* Preview Content */,
+				EBCB09902892D5E600DDEBD8 /* AccountView.swift */,
 			);
 			path = "SwiftUI App";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBCB09912892D5E600DDEBD8 /* AccountView.swift in Sources */,
 				ECB200842885B55E00D7D9DD /* Styles.swift in Sources */,
 				EC8F22E3287F132B00E5C3E4 /* ContentView.swift in Sources */,
 				EC8F22E1287F132B00E5C3E4 /* SwiftUI_AppApp.swift in Sources */,

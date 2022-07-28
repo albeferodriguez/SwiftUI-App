@@ -18,7 +18,7 @@ struct ContentView: View {
                 .cornerRadius(/*@START_MENU_TOKEN@*/20.0/*@END_MENU_TOKEN@*/)
                 .padding(9)
                 .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
-                .strokeStyle()
+                .strokeStyle(cornerRadius: 20)
             Text("SwiftUI for iOS15")
                 .font(.largeTitle)
                 .fontWeight(.bold)
