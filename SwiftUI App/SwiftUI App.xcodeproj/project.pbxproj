@@ -11,6 +11,7 @@
 		EC8F22E3287F132B00E5C3E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F22E2287F132B00E5C3E4 /* ContentView.swift */; };
 		EC8F22E5287F133000E5C3E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F22E4287F133000E5C3E4 /* Assets.xcassets */; };
 		EC8F22E8287F133000E5C3E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F22E7287F133000E5C3E4 /* Preview Assets.xcassets */; };
+		ECB200842885B55E00D7D9DD /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB200832885B55E00D7D9DD /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		EC8F22E2287F132B00E5C3E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EC8F22E4287F133000E5C3E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC8F22E7287F133000E5C3E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECB200832885B55E00D7D9DD /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				EC8F22E0287F132B00E5C3E4 /* SwiftUI_AppApp.swift */,
 				EC8F22E2287F132B00E5C3E4 /* ContentView.swift */,
+				ECB200832885B55E00D7D9DD /* Styles.swift */,
 				EC8F22E4287F133000E5C3E4 /* Assets.xcassets */,
 				EC8F22E6287F133000E5C3E4 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB200842885B55E00D7D9DD /* Styles.swift in Sources */,
 				EC8F22E3287F132B00E5C3E4 /* ContentView.swift in Sources */,
 				EC8F22E1287F132B00E5C3E4 /* SwiftUI_AppApp.swift in Sources */,
 			);
