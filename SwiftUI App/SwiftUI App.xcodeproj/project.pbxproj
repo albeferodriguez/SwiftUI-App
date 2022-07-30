@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		EBCB09912892D5E600DDEBD8 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCB09902892D5E600DDEBD8 /* AccountView.swift */; };
+		EBCB09932892E4F200DDEBD8 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCB09922892E4F200DDEBD8 /* HexagonView.swift */; };
+		EBCB09952892E84E00DDEBD8 /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCB09942892E84E00DDEBD8 /* BlobView.swift */; };
+		EBCB099728930F2600DDEBD8 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCB099628930F2600DDEBD8 /* TabBar.swift */; };
+		EBCB0999289312B500DDEBD8 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBCB0998289312B500DDEBD8 /* Tab.swift */; };
 		EC8F22E1287F132B00E5C3E4 /* SwiftUI_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F22E0287F132B00E5C3E4 /* SwiftUI_AppApp.swift */; };
 		EC8F22E3287F132B00E5C3E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F22E2287F132B00E5C3E4 /* ContentView.swift */; };
 		EC8F22E5287F133000E5C3E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F22E4287F133000E5C3E4 /* Assets.xcassets */; };
@@ -17,6 +21,10 @@
 
 /* Begin PBXFileReference section */
 		EBCB09902892D5E600DDEBD8 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		EBCB09922892E4F200DDEBD8 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
+		EBCB09942892E84E00DDEBD8 /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
+		EBCB099628930F2600DDEBD8 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		EBCB0998289312B500DDEBD8 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		EC8F22DD287F132B00E5C3E4 /* SwiftUI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8F22E0287F132B00E5C3E4 /* SwiftUI_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AppApp.swift; sourceTree = "<group>"; };
 		EC8F22E2287F132B00E5C3E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +69,10 @@
 				EC8F22E4287F133000E5C3E4 /* Assets.xcassets */,
 				EC8F22E6287F133000E5C3E4 /* Preview Content */,
 				EBCB09902892D5E600DDEBD8 /* AccountView.swift */,
+				EBCB09922892E4F200DDEBD8 /* HexagonView.swift */,
+				EBCB09942892E84E00DDEBD8 /* BlobView.swift */,
+				EBCB099628930F2600DDEBD8 /* TabBar.swift */,
+				EBCB0998289312B500DDEBD8 /* Tab.swift */,
 			);
 			path = "SwiftUI App";
 			sourceTree = "<group>";
@@ -144,9 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBCB09912892D5E600DDEBD8 /* AccountView.swift in Sources */,
+				EBCB09932892E4F200DDEBD8 /* HexagonView.swift in Sources */,
 				ECB200842885B55E00D7D9DD /* Styles.swift in Sources */,
+				EBCB0999289312B500DDEBD8 /* Tab.swift in Sources */,
+				EBCB09952892E84E00DDEBD8 /* BlobView.swift in Sources */,
 				EC8F22E3287F132B00E5C3E4 /* ContentView.swift in Sources */,
 				EC8F22E1287F132B00E5C3E4 /* SwiftUI_AppApp.swift in Sources */,
+				EBCB099728930F2600DDEBD8 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
